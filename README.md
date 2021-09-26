@@ -1,3 +1,4 @@
+![Cópia de CLI + BASH](https://user-images.githubusercontent.com/33513870/134807131-992e0fe7-36db-4f97-9b0a-f67a8559e56c.jpg)
 # Desafio - 1 Descubra o Pattern
 Descubra o padrão e selecione a resposta que melhor se encaixa no campo solicitado.
 
