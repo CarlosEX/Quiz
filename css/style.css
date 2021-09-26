@@ -189,5 +189,10 @@ button:hover{
     .col-1 h3{
         font-size: 15px;
     }
-
+    footer{
+        text-align: center;
+        padding: 3px;
+        bottom: 20;
+        top: 20;
+    }
 }

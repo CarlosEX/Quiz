@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/message.png" class="logo">
+            </a>
+            <h4 padding>Carlos Antonio<br/>QI Lógico</h4>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Desafios</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="toggleMenu()">
+        </div>
+        <div class="row">
+            <div class="question">
+                <form method="post" id="awnser">
+                    <p>Dada a seguinte sequência: D2FO, _____, DF4O, DFO5, D6FO , qual das alternativas abaixo contém o elemento que completa a lacuna?</p>
+                    <br/>
+                    <p>
+                        <input type="radio" id="a" name="resposta" value="a">
+                        <label for="a">A) D2F9O</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="b" name="resposta" value="b">
+                        <label for="b">B) DF3O</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="c" name="resposta" value="c">
+                        <label for="c">C) D8F3O</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="d" name="resposta" value="d" data-resultado="true">
+                        <label for="d">D) D3FO</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="e" name="resposta" value="e">
+                        <label for="e">E) D1FO</label>
+                    </p><br/>
+
+                    <form action="desafio1.html">
+                        <button type="submit" name="validade">
+                            Verificar Resposta
+                        </button>
+                    </form>
+                </form>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/CarlosEX">
+                <img alt="GitHub" src="images/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/carloscison/">
+                <img alt="Linkedin" src="images/linkedin.png">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
